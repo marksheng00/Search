@@ -1275,7 +1275,7 @@ export default function BookSwipeReaderPrototype() {
                             animate={{ opacity, y: 0, filter: "blur(0px)" }}
                             exit={{ opacity: 0, y: -18, filter: "blur(6px)" }}
                             transition={{ duration: 0.55, ease: "easeOut" }}
-                            className="max-w-[92%] text-[24px] leading-[1.6] tracking-[0.01em] text-white"
+                            className="w-full text-[24px] leading-[1.6] tracking-[0.01em] text-white"
                           >
                             {line}
                           </motion.p>
